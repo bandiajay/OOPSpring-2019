@@ -17,7 +17,7 @@ public class CourseDriver {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-          //scanner object with input from Keyborad
+          //Scanner object with input from Keyborad
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter the course number: ");
