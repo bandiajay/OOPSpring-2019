@@ -5,6 +5,8 @@
  */
 package cats;
 
+import java.util.Stack;
+
 /**
  *
  * @author ajay
@@ -32,7 +34,13 @@ public class CatDriver {
         System.out.println("c2 hashcode:"+c2.hashCode());
         System.out.println("c3 hashcode:"+c3.hashCode());
         System.out.println("c4 hashcode:"+c4.hashCode());
-
+            
+        Stack<String> stack = new Stack<String>();
+        stack.push("Aziz");
+        stack.push("Fellah");
+        stack.pop();
+       stack.pop();
+       stack.pop();
 
     }
     
